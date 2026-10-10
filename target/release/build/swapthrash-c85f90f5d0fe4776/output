@@ -1,0 +1,2 @@
+cargo:rerun-if-changed=src/bpf/swapthrash.bpf.c
+cargo:rerun-if-changed=src/bpf/swapthrash.h

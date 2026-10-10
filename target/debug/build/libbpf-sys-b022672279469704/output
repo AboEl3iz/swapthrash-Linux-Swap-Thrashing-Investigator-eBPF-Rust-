@@ -1,0 +1,14 @@
+Using feature vendored-libbpf=false
+Using feature vendored-libelf=false
+Using feature vendored-zlib=false
+Using feature static-libbpf=false
+Using feature static-libelf=false
+Using feature static-zlib=false
+cargo:rustc-link-search=native=/media/karim/New Volume16/devops/memory/target/debug/build/libbpf-sys-b022672279469704/out
+cargo:rustc-link-lib=elf
+cargo:rustc-link-lib=z
+cargo:rustc-link-lib=bpf
+cargo:include=/media/karim/New Volume16/devops/memory/target/debug/build/libbpf-sys-b022672279469704/out/include
+cargo:rerun-if-env-changed=LIBBPF_SYS_LIBRARY_PATH
+cargo:rerun-if-env-changed=LIBBPF_SYS_LIBRARY_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=LIBBPF_SYS_LIBRARY_PATH_x86_64_unknown_linux_gnu

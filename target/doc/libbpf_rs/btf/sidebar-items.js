@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["BtfKind"],"mod":["types"],"struct":["Btf","BtfType","TypeId"],"trait":["HasSize","ReferencesType"]};

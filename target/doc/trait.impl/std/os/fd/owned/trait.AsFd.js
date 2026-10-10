@@ -1,0 +1,9 @@
+(function() {
+    const implementors = Object.fromEntries([["libbpf_rs",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.96.0/std/os/fd/owned/trait.AsFd.html\" title=\"trait std::os::fd::owned::AsFd\">AsFd</a> for <a class=\"struct\" href=\"libbpf_rs/struct.Link.html\" title=\"struct libbpf_rs::Link\">Link</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.96.0/std/os/fd/owned/trait.AsFd.html\" title=\"trait std::os::fd::owned::AsFd\">AsFd</a> for <a class=\"struct\" href=\"libbpf_rs/struct.MapHandle.html\" title=\"struct libbpf_rs::MapHandle\">MapHandle</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.96.0/std/os/fd/owned/trait.AsFd.html\" title=\"trait std::os::fd::owned::AsFd\">AsFd</a> for <a class=\"struct\" href=\"libbpf_rs/struct.ProgramHandle.html\" title=\"struct libbpf_rs::ProgramHandle\">ProgramHandle</a>",0],["impl&lt;T&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/1.96.0/std/os/fd/owned/trait.AsFd.html\" title=\"trait std::os::fd::owned::AsFd\">AsFd</a> for <a class=\"struct\" href=\"libbpf_rs/struct.MapImpl.html\" title=\"struct libbpf_rs::MapImpl\">MapImpl</a>&lt;'_, T&gt;",0],["impl&lt;T&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/1.96.0/std/os/fd/owned/trait.AsFd.html\" title=\"trait std::os::fd::owned::AsFd\">AsFd</a> for <a class=\"struct\" href=\"libbpf_rs/struct.ProgramImpl.html\" title=\"struct libbpf_rs::ProgramImpl\">ProgramImpl</a>&lt;'_, T&gt;",0]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":59,"fragment_lengths":[1411]}

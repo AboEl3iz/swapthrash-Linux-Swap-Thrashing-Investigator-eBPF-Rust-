@@ -1,0 +1,14 @@
+[package]
+name = "swapthrash"
+version = "0.1.0"
+edition = "2021"
+authors = ["Karim"]
+description = "eBPF tool to investigate swap thrashing by measuring page swap residency time as a histogram"
+
+[dependencies]
+libbpf-rs = { version = "0.27.2", default-features = false }
+libc = "0.2"
+clap = { version = "4.5", features = ["derive"] }
+ctrlc = "3.4"
+anyhow = "1.0"
+chrono = "0.4"

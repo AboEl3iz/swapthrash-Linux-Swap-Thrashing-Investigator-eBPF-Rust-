@@ -1,0 +1,17 @@
+In file included from src/bpf/swapthrash.bpf.c:2:
+src/bpf/vmlinux.h:42410:2: warning: declaration does not declare anything [-Wmissing-declarations]
+ 42410 |         struct aes_enckey;
+       |         ^
+src/bpf/vmlinux.h:58057:3: warning: declaration does not declare anything [-Wmissing-declarations]
+ 58057 |                 struct ns_tree;
+       |                 ^
+src/bpf/vmlinux.h:80539:2: warning: declaration does not declare anything [-Wmissing-declarations]
+ 80539 |         struct __filename_head;
+       |         ^
+src/bpf/vmlinux.h:121417:2: warning: declaration does not declare anything [-Wmissing-declarations]
+ 121417 |         union pipe_index;
+        |         ^
+src/bpf/vmlinux.h:134939:4: warning: declaration does not declare anything [-Wmissing-declarations]
+ 134939 |                         struct freelist_counters;
+        |                         ^
+5 warnings generated.

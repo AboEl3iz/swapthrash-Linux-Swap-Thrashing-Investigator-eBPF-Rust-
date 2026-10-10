@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["FwdKind","IntEncoding","Linkage","MemberAttr"],"struct":["Array","Composite","CompositeMember","Const","DataSec","DeclTag","Enum","Enum64","Enum64Member","EnumMember","Float","Func","FuncProto","FuncProtoParam","Fwd","Int","Ptr","Restrict","Struct","StructMember","TypeTag","Typedef","Union","UnionMember","Var","VarSecInfo","Void","Volatile"]};
